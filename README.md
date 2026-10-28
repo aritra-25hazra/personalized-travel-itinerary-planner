@@ -1,5 +1,7 @@
 # 🧭 Personalized Travel Itinerary Planner
 
+🔗 **Live demo:** https://personalized-travel-itinerary-planner-4egdk2rmysk9jygx3z2yxh.streamlit.app/
+
 **Skill Wallet Capstone · Project 4** · Generative AI | Intelligent SaaS Trip Planning
 Platform ID: `6ac33976fb8fc7965cd9236d`
 
