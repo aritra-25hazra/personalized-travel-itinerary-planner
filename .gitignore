@@ -1,0 +1,15 @@
+# local data & secrets
+trips.db
+.streamlit/secrets.toml
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
