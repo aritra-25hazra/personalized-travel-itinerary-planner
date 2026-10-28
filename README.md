@@ -31,7 +31,7 @@ emergency-contact checklist.
 
 ## 🛠 Tech stack
 
-- **Python 3.9+**, **Streamlit** (UI + session state)
+- **Python 3.11+**, **Streamlit** (UI + session state)
 - **Gemini API** / **Groq API** via REST (`requests`) – no SDK pinning, JSON-mode responses
 - **SQLite** (stdlib `sqlite3`) – zero external database dependencies
 - **ReportLab** – PDF generation

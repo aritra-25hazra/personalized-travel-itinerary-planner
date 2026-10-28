@@ -1538,7 +1538,8 @@ def tab_customize() -> None:
         last = plan.get("last_swap")
         if last:
             st.caption(f"Last change: Day {last['day']} · \"{last['instruction']}\" · {last['at']}")
-        st.markdown(f'<div class="muted">🔒 Locked: {", ".join(f"Day {d["day"]}" for i, d in enumerate(plan["days"]) if i != day_idx) or "none"}</div>', unsafe_allow_html=True)
+        locked = ", ".join(f"Day {d['day']}" for i, d in enumerate(plan["days"]) if i != day_idx) or "none"
+        st.markdown(f'<div class="muted">🔒 Locked: {locked}</div>', unsafe_allow_html=True)
 
 
 def tab_trips() -> None:
