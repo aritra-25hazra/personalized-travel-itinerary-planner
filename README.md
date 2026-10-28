@@ -43,7 +43,7 @@ emergency-contact checklist.
 ## 🚀 Run locally
 
 ```bash
-git clone https://github.com/<your-username>/personalized-travel-itinerary-planner.git
+git clone https://github.com/aritra-25hazra/personalized-travel-itinerary-planner.git
 cd personalized-travel-itinerary-planner
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
